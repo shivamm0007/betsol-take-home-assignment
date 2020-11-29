@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "homepage": "https://github.com/shivamm0007/betsol-take-home-assignment.git",
   "dependencies": {
     "@hapi/iron": "^6.0.0",
     "body-parser": "^1.19.0",
@@ -11,7 +12,9 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
