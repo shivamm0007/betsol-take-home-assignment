@@ -4,6 +4,7 @@ const { isLoggedIn } = require("../middleware/auth");
 
 const auth = (app) => {
   app.post("/api/login", async (req, res) => {
+    console.log("BODY::", req.body)
     const { email, password } = req.body;
     if (!email || !password) {
       res.json({ success: false, message: "Unauthorized" });

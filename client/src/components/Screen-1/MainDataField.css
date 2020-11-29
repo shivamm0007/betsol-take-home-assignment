@@ -1,0 +1,221 @@
+.data-field-container {
+  position: absolute;
+  margin-left: 89px;
+  width: 1264px;
+  height: 584px;
+  left: 89px;
+  top: 276px;
+
+  background: #ffffff;
+  /* brand grey */
+
+  border: 1px solid #9b9ea8;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.data-field-text {
+  position: absolute;
+  width: 120px;
+  height: 36px;
+  left: 43px;
+  top: 27px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  /* brand black */
+
+  color: #515562;
+}
+.data-field-tablehead {
+  position: absolute;
+  width: 1175px;
+  height: 52px;
+  left: 43px;
+  top: 87px;
+  background: #b8d5d1;
+  border-radius: 10px 10px 0px 0px;
+}
+.table-head-id {
+  padding-left: 37px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #515562;
+}
+
+.table-head-instance {
+  padding-left: 120px;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* brand black */
+
+  color: #515562;
+}
+.table-head-cost {
+  padding-left: 135px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* brand black */
+
+  color: #515562;
+}
+.table-head-status {
+  padding-left: 209px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* brand black */
+
+  color: #515562;
+}
+.table-head-action {
+  padding-left: 203px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* brand black */
+
+  color: #515562;
+}
+.table-body-container {
+  position: absolute;
+  width: 1175px;
+  height: 346px;
+  left: 43px;
+  top: 141px;
+  background: #e9f0f0;
+  border-radius: 0px;
+}
+Table tr {
+  background-color: #e9f0f0;
+}
+Table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table-body-data-id {
+  padding-left: 37px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.table-body-data-name {
+  padding-left: 126px;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.table-body-data-cost {
+  padding-left: 272px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.table-body-data-status-green {
+  padding-left: 209px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: darkgreen;
+}
+.table-body-data-status-red {
+  padding-left: 209px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: red;
+}
+.table-body-data-action-green {
+  padding-left: 203px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: darkgreen;
+  text-decoration-line: underline;
+}
+.table-body-data-action-red {
+  padding-left: 203px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: red;
+  text-decoration-line: underline;
+}
+.table-body-data-action-red:hover {
+  cursor: pointer;
+}
+.table-body-data-action-green:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,152 @@
+.data-bar {
+  position: absolute;
+  width: 1264px;
+  margin-left: 88px;
+  height: 121px;
+  left: 88px;
+  top: 114px;
+  background: #ffffff;
+  /* brand grey */
+
+  border: 1px solid #9b9ea8;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.data-bar-innerframe {
+  position: absolute;
+  width: 1175px;
+  height: 67px;
+  left: 132px;
+  top: 141px;
+}
+.data-bar-innerframe-running {
+  position: absolute;
+  margin-left: 44px;
+  width: 168px;
+  height: 67px;
+  left: 132px;
+  top: 141px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #515562;
+}
+.data-bar-innerframe-running-text {
+  position: absolute;
+  margin-left: 54px;
+  width: 168px;
+  height: 67px;
+  left: 165px;
+  top: 176px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #515562;
+}
+
+.data-bar-innerframe-stopped {
+  position: absolute;
+  margin-left: 66px;
+  width: 170px;
+  height: 67px;
+  left: 354px;
+  top: 141px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #515562;
+}
+.data-bar-innerframe-stopped-text {
+  position: absolute;
+  margin-left: 44px;
+  width: 168px;
+  height: 67px;
+  left: 397px;
+  top: 176px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #515562;
+}
+.data-bar-toggle-curr-frame {
+  position: absolute;
+  width: 162px;
+  height: 36px;
+  left: 1145px;
+  top: 156px;
+}
+.data-bar-innerframe-currinr {
+  position: absolute;
+  margin-top: -48px;
+  width: 49px;
+  height: 36px;
+  left: 80px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #515562;
+}
+.data-bar-innerframe-currusd {
+  position: absolute;
+  width: 49px;
+  height: 36px;
+  left: 196px;
+  top: 1px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #515562;
+}
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  cursor: pointer;
+  width: 53px;
+  height: 28px;
+  background: #b8d5d1;
+  border-radius: 20px;
+  position: relative;
+  transition: background-color 0.2s;
+  left: 134px;
+  top: -17px;
+}
+
+.react-switch-label .react-switch-button {
+  content: "";
+  position: absolute;
+  /* top: 2px; */
+
+  width: 28px;
+  height: 28px;
+
+  background: #005a3c;
+  border-radius: 20px;
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 28px;
+}

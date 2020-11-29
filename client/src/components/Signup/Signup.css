@@ -1,0 +1,108 @@
+.sign-up-container {
+  position: absolute;
+  width: 693px;
+  height: 526px;
+  left: 373px;
+  top: 187px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+.sign-up-text {
+  position: absolute;
+  width: 115px;
+  height: 45px;
+  left: 662px;
+  top: 222px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #000000;
+}
+.sign-up-email {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 428px;
+  top: 299px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #000000;
+}
+.sign-up-password {
+  position: absolute;
+  width: 90px;
+  height: 24px;
+  left: 428px;
+  top: 419px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.sign-up-button {
+  position: absolute;
+  width: 583px;
+  height: 68px;
+  left: 428px;
+  top: 552px;
+  color: #e9f0f0;
+  font-family: "Poppins", sans-serif;
+  background: #005a3c;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  background: #005a3c;
+  border-radius: 10px;
+}
+
+.email-textbox {
+  position: absolute;
+  width: 583px;
+  height: 68px;
+  left: 428px;
+  top: 333px;
+  font-size: 16px;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.password-textbox {
+  position: absolute;
+  width: 583px;
+  height: 68px;
+  left: 428px;
+  top: 452px;
+  font-size: 16px;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.switch-to-login {
+  position: absolute;
+  width: 336px;
+  height: 27px;
+  left: 564px;
+  top: 652px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  color: #005a3c;
+}
